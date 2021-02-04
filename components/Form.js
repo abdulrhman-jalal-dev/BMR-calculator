@@ -83,6 +83,8 @@ export default function Form() {
         setFinish(false)
         setCompletedStages([])
         setStageIndex(0)
+
+        formStages.map(stage => stage.value = "")
     }
 
     const nextStage = index => {
