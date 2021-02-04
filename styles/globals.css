@@ -1,3 +1,9 @@
+:root{
+  --main-color: #07a0c3;
+  --darker-main-color: #086788;
+  --danger-color: #fb3640;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +19,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.mainColor{
+  color:var(--main-color);
 }

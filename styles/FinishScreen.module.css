@@ -1,0 +1,32 @@
+.screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen h2{
+    text-align: center !important;
+    font-size: 2.3rem;
+    font-weight: bold;
+ }
+ 
+ .screen h1{
+    font-size: 5rem !important;
+    width: 40% !important;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    
+ }
+
+.screen .smallText{
+    font-size: 1.5rem;
+    font-weight:normal;
+ }
+
+ @media (max-width: 825px){
+    .screen h2{ font-size: 1.8rem !important;}
+    .screen .smallText{font-size: 1rem;}
+   .screen h1{ font-size: 4rem !important;   width: 100% !important;}
+ }
